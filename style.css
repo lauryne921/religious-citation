@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h1 {
+    margin-bottom: 50px;
+    position: fixed;
+    margin-bottom: 175px;
+}
+
+div {
+    font-size: 20px;
+    max-width: 40%;
+    text-align: center;
+}
+
+button {
+    border: none;
+    margin-top: 50px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px; 
+    cursor: pointer;
+    position: fixed;
+    margin-top: 175px;
+}
+
+button:hover {
+    background-color: rgb(225, 225, 225);
+}
